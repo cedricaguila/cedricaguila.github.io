@@ -1,9 +1,5 @@
 document.body.appendChild(Object.assign(document.createElement("script"), { type: "text/javascript", src: "https://connect.facebook.net/en_US/sdk.js", defer: true }))
 
-window.facebook = {
-    share
-}
-
 window.fbAsyncInit = function() {
     FB.init({
       appId            : '360130579428677',
