@@ -9,25 +9,7 @@
 </head>
 
 <body>
+  <script src="FB.js"></script>
   <button onclick="share()">Share me!</button>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId            : '360130579428677',
-        autoLogAppEvents : true,
-        xfbml            : true,
-        version          : 'v13.0'
-      });
-    };
-
-    share = function() {
-      FB.ui({
-        method: 'share',
-        href: 'cedricaguila.github.io'
-      }, function(response) {});
-    }
-  </script>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-
 </body>
 </html>
