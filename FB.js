@@ -12,20 +12,20 @@ window.fbAsyncInit = function() {
 function shareone() {
     FB.ui({
       method: 'share',
-      href: 'cedricaguila.github.io/one.html'
+      href: '/one.html'
     }, function(response) {});
 }
 
 function sharetwo() {
     FB.ui({
       method: 'share',
-      href: 'cedricaguila.github.io/two.html'
+      href: '/two.html'
     }, function(response) {});
 }
 
 function sharethree() {
     FB.ui({
       method: 'share',
-      href: 'cedricaguila.github.io/three.html'
+      href: '/three.html'
     }, function(response) {});
 }
